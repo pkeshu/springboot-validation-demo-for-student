@@ -1,0 +1,14 @@
+spring:
+  h2:
+    console:
+      enabled: true
+  datasource:
+    url: jdbc:h2:mem:testdb
+
+server:
+  port: 9292
+springdoc:
+  api-docs:
+    path: /validation-docs
+  swagger-ui:
+    path: /api
